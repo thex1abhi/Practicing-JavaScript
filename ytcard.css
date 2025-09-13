@@ -1,0 +1,31 @@
+
+.card{
+    display: flex;
+    font-size: 16px;
+    border: 1px solid black;
+    padding: 12px;
+    margin: 10px;
+    width: 900px;
+    align-items: center;
+    justify-content: center;
+}
+
+.image{
+ height: 120px;
+ width: 180px;
+ position: relative;
+}
+.text h2, p{
+    padding: 4px;
+}
+.capsule{
+    position: absolute;
+    background-color: rgb(7, 7, 7);
+    color: white;
+    right: 0px;
+    bottom: 7px;
+    z-index: 10;
+    opacity: 0.9;
+    padding: 4px;
+    border-radius: 10px;
+}
